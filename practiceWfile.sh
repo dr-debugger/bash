@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Create a new dir
 mkdir basic
 # move existing file to that directory
