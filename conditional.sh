@@ -9,6 +9,7 @@ count=10
 # `-lt` stand for less then
 # you can use '>' or '<' symbol also, but then you need to replace `[ ... ]` with `(( ... ))`
 
+# dont forget to give spaces [ your_logic ]
 if [ $count -lt 10 ]
 then
     echo "condition is true"
@@ -41,6 +42,8 @@ else
     echo "invalid age!"
 fi
 exit 0
+
+# you can write or operator like this `||`
 
 #🥴 heredoc
 cat << variable
